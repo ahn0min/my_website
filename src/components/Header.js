@@ -3,14 +3,12 @@ export default class Header {
   $target;
 
   constructor($target) {
-    this.$target = $target
-    this.setup()
-    this.render()
+    this.$target = $target;
+    this.setup();
+    this.render();
   }
 
-  setup() {
-
-  }
+  setup() {}
   template() {
     return `
     <header>
@@ -24,10 +22,10 @@ export default class Header {
         </ul>
       </div>
     </header>
-    `
+    `;
   }
 
   render() {
-    this.$target.innerHTML = this.template()
+    this.$target.innerHTML = this.template();
   }
 }

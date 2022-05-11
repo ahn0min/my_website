@@ -3,9 +3,9 @@ export default class CardPost {
   $element;
   constructor($target) {
     this.$target = $target;
-    this.$element = document.createElement('article')
-    this.setup()
-    this.render()
+    this.$element = document.createElement('article');
+    this.setup();
+    this.render();
   }
 
   setup() {}
@@ -20,13 +20,11 @@ export default class CardPost {
           <p>본문 몇줄이 들어가 있습니다.</p>
         </div>
       </div>
-    `
+    `;
   }
 
   render() {
     this.$element.innerHTML = this.template();
-    this.$target.appendChild(this.$element)
+    this.$target.appendChild(this.$element);
   }
 }
-
-

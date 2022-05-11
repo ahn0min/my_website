@@ -1,0 +1,28 @@
+html {
+  font-size: 16px;
+  body {
+    margin: 0;
+  }
+}
+
+main {
+  header {
+    height: 3rem;
+    padding: 1.5rem 0rem;
+    width: 1360px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ul {
+      list-style: none;
+      display: flex;
+    }
+  }
+  .blog_main_container {
+    // display: flex;
+    // align-items: center;
+    text-align: center;
+    align-content: center;
+  }
+}

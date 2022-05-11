@@ -1,0 +1,30 @@
+{
+  "name": "my_website",
+  "version": "1.0.0",
+  "description": "- 블로그\r - 나의 프로젝트\r - 나의 정보",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahn0min/my_website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahn0min/my_website/issues"
+  },
+  "homepage": "https://github.com/ahn0min/my_website#readme",
+  "dependencies": {
+    "sass": "^1.51.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.6.2"
+  }
+}
