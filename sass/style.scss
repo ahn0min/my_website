@@ -26,3 +26,52 @@ main {
     align-content: center;
   }
 }
+
+.blog_post_row_wrap {
+  display: flex;
+  // justify-content: left;
+  flex-wrap: wrap;
+  margin: -1rem;
+  .card_post {
+    width: 20rem;
+    height: 23rem;
+    margin: 0.8rem;
+
+    border: 1px solid green;
+    border-radius: 5px;
+
+    box-shadow: rgb(0, 0, 0 / 2%) 0px 4px 5px 0px;
+    transition: margin-top 0.25s;
+
+    .card_post_image {
+      display: block;
+      max-height: 50%;
+
+      a {
+        display: block;
+        img {
+          max-width: 100%;
+          max-height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+    .card_post_body {
+      padding: 1rem;
+
+      h3 {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+      p {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+  .card_post:hover {
+    margin-top: 0;
+  }
+}
